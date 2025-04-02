@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+int global = 99; // Global variable
+
 // Pass by Value (does not modify original variable)
 void passByValue(int x) {
     x = 100;
@@ -19,6 +21,12 @@ int main() {
 
     passByReference(num);
     cout << "After pass by reference: " << num << endl; // num changes to 100
+
+    passByValue(global); // Pass global variable by value
+    cout << "Global variable after pass by value: " << global << endl; // global remains 99
+    
+    passByReference(global); // Pass global variable by reference
+    cout << "Global variable after pass by reference: " << global << endl; // global changes to 100
 
     return 0;
 }
