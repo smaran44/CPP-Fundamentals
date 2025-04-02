@@ -13,6 +13,12 @@ void passByValue(int x) {
     x = 100; // This only modifies the local copy of x
 }
 
+// Function using Pass by Pointer (Modifies original variable)
+void passByPointer(int *x) {
+    *x = 99; // Dereference pointer to modify actual value
+}
+
+
 // Function using Pass by Reference (Modifies global)
 void passByReference(int &x) {
     x = 100; // This modifies the actual variable passed
@@ -35,6 +41,9 @@ int main() {
 
     passByReference(global);
     cout << "After passByReference(global): " << global << endl; // Prints 100
+
+    passByPointer(&global);
+    cout << "After passByPointer(global): " << global << endl; // Prints 100
 
     localScope();
     cout << "After localScope(), global = " << global << endl; // Still 100
