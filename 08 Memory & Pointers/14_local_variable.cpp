@@ -11,6 +11,11 @@ void passByReference(int &x) {
     x = 100;  // Modifies the actual variable passed
 }
 
+// Function using Pass by Pointer (Modifies original variable)
+void passByPointer(int *x) {
+    *x = 99;  // Dereference pointer to modify actual value
+}
+
 // Function to test local scope
 void localScope() {
     int localVar = 50;  // Local variable inside localScope()
@@ -32,6 +37,9 @@ int main() {
 
     passByReference(localVar);
     cout << "After passByReference(localVar): " << localVar << endl; // Prints 100
+
+    passByPointer(&localVar);
+    cout << "After passByPointer(localVar): " << localVar << endl; // Prints 99
 
     localScope(); // Calls localScope(), but its localVar is separate
     cout << "After localScope(), localVar in main() = " << localVar << endl; // Still 100
