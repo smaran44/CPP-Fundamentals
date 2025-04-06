@@ -1,0 +1,9 @@
+C++ is a powerful, general-purpose programming language that builds upon the foundation of C and introduces object-oriented programming features. Developed by Bjarne Stroustrup in 1983, C++ was designed to enhance C by adding features like classes, inheritance, and polymorphism. Over the years, it has become one of the most widely used programming languages for system software, game development, and large-scale applications.
+
+Features of C++
+Object-Oriented - C++ supports object-oriented programming concepts like classes, objects, inheritance, polymorphism, and encapsulation.
+Fast Execution - Like C, C++ is a compiled language and works close to the hardware, ensuring high performance.
+Portability - C++ code can run on multiple platforms with minimal modifications.
+Rich Library Support - The Standard Template Library (STL) in C++ provides a wide range of built-in functions and data structures for efficient programming.
+Memory Management - C++ allows direct memory access through pointers and provides features like dynamic memory allocation using `new` and `delete`.
+Structured and Modular - C++ supports both procedural and object-oriented programming, enabling better code organization and reusability.
