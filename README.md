@@ -15,6 +15,7 @@ Welcome to **Cpp-Fundamentals**! This repository is designed to help beginners a
 - **Structure Data with Structs & Enums**: Learn to organize data logically.
 - **File Handling Made Simple**: Read and write data in files with ease.
 - **Master Dynamic Memory Allocation**: Optimize your programs with dynamic memory management.
+- **Text Processing in C++**: Implement real-world text operations like word count, search, line filtering, and more.
 
 ## 📂 Repository Structure
 ```
@@ -29,9 +30,10 @@ Cpp-Fundamentals/
 │── 08_Pointers_&_Memory_Management/      # Dynamic memory handling
 │── 09_Advanced_Functions_&_Recursion/    # Advanced function techniques
 │── 10_Structs_&_Enums/                   # Organizing data logically
-│── 11_File_Handling/                      # Reading and writing files
+│── 11_File_Handling/                     # Reading and writing files
 │── 12_Dynamic_Memory_Allocation/         # Optimizing with dynamic memory
-│── README.md                              # Repository documentation
+│── 13_Text_Processing/                   # Word count, line filtering, search, etc.
+│── README.md                             # Repository documentation
 ```
 
 ## 🛠 Prerequisites
